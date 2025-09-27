@@ -62,4 +62,5 @@ Other Rambles
 
 - [We Go Forward](https://www.youtube.com/watch?v=8Qq36HbSeYY&list=RD8Qq36HbSeYY&start_radio=1)
   is an incredible track
+- [The Barrel Scene (If you don't want to watch the movie, at least watch this)](https://www.youtube.com/watch?v=EH1EtiOhr6o)
 - [You should also watch: Why SNOWPIERCER is a sequel to WILLY WONKA AND THE CHOCOLATE FACTORY](https://www.youtube.com/watch?v=jEX52h1TvuA)
