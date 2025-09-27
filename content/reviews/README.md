@@ -11,13 +11,13 @@ reviews/
 
 ## File Naming
 
-`YYYY-MM-DD-title-slug.md`
+`YYYY-MM-DD_title-slug.md`
 
 Examples:
 
-- `2024-03-15-grand-budapest-hotel.md`
-- `2024-03-17-the-bear-season-2.md`
-- `2024-03-19-long-way-to-a-small-angry-planet.md`
+- `2024-03-15_grand-budapest-hotel.md`
+- `2024-03-17_the-bear-season-2.md`
+- `2024-03-19_long-way-to-a-small-angry-planet.md`
 
 **Slugification:** lowercase, spaces → hyphens, remove special characters
 
