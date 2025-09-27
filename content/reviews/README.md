@@ -25,28 +25,44 @@ Examples:
 
 ### Required Fields
 
-| Field      | Type       | Description             | Example           |
-| ---------- | ---------- | ----------------------- | ----------------- |
-| `title`    | string     | Display title           | `"Dune Part Two"` |
-| `date`     | YYYY-MM-DD | Date watched/read       | `2024-03-15`      |
-| `rating`   | number     | Your rating (any scale) | `8.5`             |
-| `finished` | boolean    | Did you complete it?    | `true`            |
+| Field     | Type       | Description             | Example           |
+| --------- | ---------- | ----------------------- | ----------------- |
+| `title`   | string     | Display title           | `"Dune Part Two"` |
+| `date`    | YYYY-MM-DD | Date watched/read       | `2024-03-15`      |
+| `rating`  | number     | Your rating (any scale) | `8.5`             |
+| `tmdb_id` | string     | Movies/TV               | `"693134"`        |
 
 ### Media-Specific Fields
 
-| Field     | Type   | Used For   | Example           |
-| --------- | ------ | ---------- | ----------------- |
-| `tmdb_id` | string | Movies/TV  | `"693134"`        |
-| `season`  | number | TV seasons | `2`               |
-| `isbn`    | string | Books      | `"9781500453305"` |
+| Field    | Type   | Used For   | Example           |
+| -------- | ------ | ---------- | ----------------- |
+| `season` | number | TV seasons | `2`               |
+| `isbn`   | string | Books      | `"9781500453305"` |
 
 ### Optional Fields
 
-| Field     | Type    | Description               | Example                    |
-| --------- | ------- | ------------------------- | -------------------------- |
-| `tags`    | array   | Personal taxonomy         | `[comfort-watch, rewatch]` |
-| `with`    | array   | Who you watched/read with | `["Sarah", "Mom"]`         |
-| `revisit` | boolean | Is this a rewatch/reread? | `true`                     |
+| Field     | Type    | Description               | Example                       |
+| --------- | ------- | ------------------------- | ----------------------------- |
+| `tags`    | array   | Personal taxonomy         | `[comfort-watch, rewatch]`    |
+| `with`    | array   | Who you watched/read with | `["Sarah", "Mom"]`            |
+| `revisit` | boolean | Is this a rewatch/reread? | `true`                        |
+| `poster`  | string  | Path to poster image      | `"images/grand-budapest.jpg"` |
+
+## Rating System
+
+**Scale:** 1-10 (integers only, no decimals)
+
+| Rating | Meaning       |
+| ------ | ------------- |
+| 10     | Masterpiece   |
+| 8-9    | Excellent     |
+| 6-7    | Good          |
+| 5      | Average       |
+| 3-4    | Below average |
+| 1-2    | Bad           |
+
+**Principle:** 5 is true average. Most things should fall between 4-6. Use the
+full range.
 
 ## Example Review
 
