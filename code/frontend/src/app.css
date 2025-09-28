@@ -2,6 +2,8 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   html {
     font-family: 'Inter Variable', system-ui, -apple-system, sans-serif;
