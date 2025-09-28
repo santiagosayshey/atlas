@@ -1,0 +1,148 @@
+openapi: 3.0.3
+info:
+  title: Atlas Reviews API
+  description: API for managing and retrieving media reviews
+  version: 1.0.0
+servers:
+  - url: http://localhost:7667
+    description: Development server
+
+paths:
+  /api/reviews:
+    get:
+      summary: Get all reviews
+      description: Retrieve all reviews with optional filtering by type
+      parameters:
+        - name: type
+          in: query
+          description: Filter reviews by media type
+          required: false
+          schema:
+            type: string
+            enum: [movie, tv, book]
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  reviews:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Review'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /api/reviews/{type}/{slug}:
+    get:
+      summary: Get a specific review
+      description: Retrieve a single review by type and slug
+      parameters:
+        - name: type
+          in: path
+          description: Type of media
+          required: true
+          schema:
+            type: string
+            enum: [movie, tv, book]
+        - name: slug
+          in: path
+          description: URL slug of the review
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  review:
+                    $ref: '#/components/schemas/Review'
+        '404':
+          description: Review not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    Review:
+      type: object
+      required:
+        - title
+        - date
+        - rating
+      properties:
+        title:
+          type: string
+          description: Title of the media
+        date:
+          type: string
+          format: date
+          description: Date in YYYY-MM-DD format
+        rating:
+          type: number
+          minimum: 1
+          maximum: 10
+          description: Rating from 1-10
+        tmdb_id:
+          type: string
+          description: TMDB ID for movies/TV shows
+        isbn:
+          type: string
+          description: ISBN for books
+        season:
+          type: integer
+          description: Season number for TV shows
+        tags:
+          type: array
+          items:
+            type: string
+          description: Tags for categorization
+        with:
+          type: array
+          items:
+            type: string
+          description: People watched/read with
+        revisit:
+          type: boolean
+          description: Is this a rewatch/reread
+        poster:
+          type: string
+          description: Path to poster image
+        finished:
+          type: boolean
+          description: Was it finished
+        slug:
+          type: string
+          description: URL slug from filename
+        type:
+          type: string
+          enum: [movie, tv, book]
+          description: Type of media
+        content:
+          type: string
+          description: Markdown content of review
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          description: Error message

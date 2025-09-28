@@ -1,9 +1,13 @@
 {
   "tasks": {
-    "dev": "deno run --allow-net --watch main.ts",
-    "start": "deno run --allow-net main.ts"
+    "dev": "deno run --allow-net --allow-read --watch src/main.ts"
   },
   "imports": {
-    "@hono/hono": "jsr:@hono/hono@^4.4.0"
+    "@hono/hono": "jsr:@hono/hono@^4.4.0",
+    "@/": "./src/",
+    "@/types": "./src/types/",
+    "@/utils": "./src/utils/",
+    "@/services": "./src/services/",
+    "@/config": "./config.yaml"
   }
 }

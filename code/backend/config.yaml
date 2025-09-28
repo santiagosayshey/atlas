@@ -1,0 +1,6 @@
+content:
+  basePath: ../../content
+  reviews:
+    movies: reviews/movies
+    tv: reviews/tv
+    books: reviews/books
