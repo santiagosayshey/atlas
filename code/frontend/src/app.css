@@ -1,3 +1,9 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@layer base {
+  html {
+    font-family: 'Inter Variable', system-ui, -apple-system, sans-serif;
+  }
+}

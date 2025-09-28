@@ -8,7 +8,8 @@ const config = {
       fallback: 'index.html'
     }),
     alias: {
-      $api: resolve('./src/api')
+      $api: resolve('./src/api'),
+      $ui: resolve('./src/ui')
     }
   }
 };
