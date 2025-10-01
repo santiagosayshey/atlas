@@ -11,7 +11,7 @@ Dental Hygiene
 
 ## Frequency
 
-- Everday
+Everday
 
 ---
 

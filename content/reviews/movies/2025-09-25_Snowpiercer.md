@@ -5,14 +5,14 @@ rating: 7
 tmdb_id: "110415"
 tags: ["first-review", "faceplant"]
 revisit: true
-poster: "https://theposterdb.com/api/assets/581040"
+poster: "https://assets2.ignimgs.com/2013/10/28/snowjpg-e95dd4.jpg"
 ---
 
 Snowpiercer is brilliant until it decides to explain itself to death. The best
 films drop you into chaos and trust you to keep up. For thirty glorious minutes,
 Snowpiercer is that film.
 
-> Everybody get down! One... Two... Three... Four ... Five .... Six
+> Everybody get down! One... Two... Three... Four ...
 
 Opening scene: Curtis stands, head tilted, counting. One door. Two doors. Three
 doors. Four. The camera holds on his face. Is this reconnaissance? Planning? The

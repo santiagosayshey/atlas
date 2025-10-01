@@ -10,7 +10,7 @@ Physical Health
 
 ## Frequency
 
-- Everday
+Everday
 
 ---
 
