@@ -6,6 +6,9 @@ export interface Config {
       tv: string;
       books: string;
     };
+    habits: {
+      all: string;
+    };
   };
   logs: {
     directory: string;

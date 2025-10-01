@@ -1,8 +1,16 @@
 # Daily Walk
 
+## Description
+
+Physical Health
+
 ## Template
 
 - [ ] {duration}
+
+## Frequency
+
+- Everday
 
 ---
 

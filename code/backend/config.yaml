@@ -4,6 +4,8 @@ content:
     movies: reviews/movies
     tv: reviews/tv
     books: reviews/books
+  habits:
+    all: habits
 
 logs:
   directory: logs

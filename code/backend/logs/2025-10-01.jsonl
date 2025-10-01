@@ -73,3 +73,20 @@
 {"timestamp":"2025-10-01T01:36:52.050Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
 {"timestamp":"2025-10-01T01:36:52.051Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
 {"timestamp":"2025-10-01T01:36:52.049Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:42:32.993Z","level":"INFO","message":"Config file changed, reloading"}
+{"timestamp":"2025-10-01T01:42:32.994Z","level":"INFO","message":"Cache watchers stopped"}
+{"timestamp":"2025-10-01T01:42:32.995Z","level":"WARN","message":"No loader registered for content type","data":{"contentType":"habits"}}
+{"timestamp":"2025-10-01T01:42:32.995Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:42:32.996Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T01:42:32.996Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:43:18.185Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T01:43:18.185Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:43:18.186Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T01:43:18.184Z","level":"WARN","message":"No loader registered for content type","data":{"contentType":"habits"}}
+{"timestamp":"2025-10-01T01:43:18.184Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:43:44.373Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T01:43:44.374Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T01:43:44.385Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T01:43:44.386Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T01:43:44.386Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:43:44.387Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
