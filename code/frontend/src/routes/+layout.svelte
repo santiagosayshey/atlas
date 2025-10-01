@@ -30,7 +30,7 @@
 				<PageNav />
 			</div>
 		{/if}
-		<main class="flex-1 overflow-auto">
+		<main class="flex-1 overflow-auto bg-neutral-50 dark:bg-neutral-950">
 			{@render children?.()}
 		</main>
 	</div>

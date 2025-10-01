@@ -19,7 +19,7 @@
       </div>
       <button
         onclick={togglePageNav}
-        class="absolute -right-2 top-1/2 -translate-y-1/2 p-2 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors"
+        class="absolute -right-4 top-1/2 -translate-y-1/2 p-2 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-lg transition-colors"
         aria-label="Toggle navigation"
       >
         {#if $pageNavCollapsed}

@@ -1,3 +1,13 @@
+export interface TMDBMetadata {
+  director?: string;
+  genres?: string[];
+  runtime?: number; // in minutes
+  releaseDate?: string;
+  overview?: string;
+  voteAverage?: number;
+  voteCount?: number;
+}
+
 export interface Review {
   // Required fields from frontmatter
   title: string;
@@ -20,4 +30,5 @@ export interface Review {
   slug?: string;
   type?: "movie" | "tv" | "book";
   content?: string;
+  tmdb?: TMDBMetadata;
 }

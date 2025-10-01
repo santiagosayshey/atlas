@@ -167,3 +167,162 @@
 {"timestamp":"2025-10-01T04:17:14.223Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
 {"timestamp":"2025-10-01T04:17:14.223Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
 {"timestamp":"2025-10-01T04:17:14.224Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:31:19.046Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:19.047Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:19.047Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:31:19.048Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:31:19.048Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:31:19.049Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:31:25.060Z","level":"ERROR","message":"Failed to download image","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer.com/api/assets/581040"},"error":{"message":"No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'","stack":"NotFound: No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'\n    at Object.writeFile (ext:deno_fs/30_fs.js:842:13)\n    at downloadImage (file:///home/sam-chau/code/atlas/code/backend/src/utils/images.ts:30:16)\n    at eventLoopTick (ext:core/01_core.js:179:7)\n    at async reviewsLoader (file:///home/sam-chau/code/atlas/code/backend/src/services/reviews/loader.ts:45:29)\n    at async ContentCache.reloadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:66:48)\n    at async ContentCache.loadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:95:5)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:27:1"}}
+{"timestamp":"2025-10-01T04:31:25.063Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:25.064Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:25.064Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:31:25.065Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:31:25.065Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:31:25.066Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:31:39.220Z","level":"ERROR","message":"Failed to download image","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer.com/api/assets/581040"},"error":{"message":"No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'","stack":"NotFound: No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'\n    at Object.writeFile (ext:deno_fs/30_fs.js:842:13)\n    at downloadImage (file:///home/sam-chau/code/atlas/code/backend/src/utils/images.ts:30:16)\n    at eventLoopTick (ext:core/01_core.js:179:7)\n    at async reviewsLoader (file:///home/sam-chau/code/atlas/code/backend/src/services/reviews/loader.ts:45:29)\n    at async ContentCache.reloadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:66:48)\n    at async ContentCache.loadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:95:5)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:31:1"}}
+{"timestamp":"2025-10-01T04:31:39.222Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:39.222Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:39.222Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:31:39.223Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:31:39.224Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:31:39.224Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:31:55.168Z","level":"ERROR","message":"Failed to download image","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer.com/api/assets/581040"},"error":{"message":"No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'","stack":"NotFound: No such file or directory (os error 2): writefile '/home/sam-chau/code/atlas/code/backend/public/posters/Snowpiercer.com/api/assets/581040'\n    at Object.writeFile (ext:deno_fs/30_fs.js:842:13)\n    at downloadImage (file:///home/sam-chau/code/atlas/code/backend/src/utils/images.ts:30:16)\n    at eventLoopTick (ext:core/01_core.js:179:7)\n    at async reviewsLoader (file:///home/sam-chau/code/atlas/code/backend/src/services/reviews/loader.ts:45:29)\n    at async ContentCache.reloadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:66:48)\n    at async ContentCache.loadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:95:5)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:31:1"}}
+{"timestamp":"2025-10-01T04:31:55.171Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:55.171Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:31:55.172Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:31:55.172Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:31:55.172Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:31:55.173Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:33:36.767Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer.png"}}
+{"timestamp":"2025-10-01T04:33:36.769Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:33:36.770Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:33:36.770Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:33:36.771Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:33:36.772Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:33:36.773Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:35:14.234Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:35:14.236Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:35:14.237Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:35:14.237Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:35:14.238Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:35:14.238Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:35:14.240Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:43:52.444Z","level":"WARN","message":"TMDB_API_KEY not set, skipping metadata fetch"}
+{"timestamp":"2025-10-01T04:43:52.430Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:43:52.446Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:43:52.446Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:43:52.457Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:43:52.458Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:43:52.458Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:43:52.459Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:44:51.136Z","level":"WARN","message":"TMDB_API_KEY not set, skipping metadata fetch"}
+{"timestamp":"2025-10-01T04:44:51.136Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:44:51.137Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:44:51.138Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:44:51.138Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:44:51.139Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:44:51.139Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:44:51.139Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:45:07.638Z","level":"WARN","message":"TMDB_API_KEY not set, skipping metadata fetch"}
+{"timestamp":"2025-10-01T04:45:07.636Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:45:07.639Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:07.640Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:07.649Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:45:07.650Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:45:07.651Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:45:07.651Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:45:21.149Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:45:22.476Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:45:23.584Z","level":"INFO","message":"TMDB metadata fetched","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:45:23.586Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:23.586Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:23.586Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:45:23.587Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:45:23.587Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:45:23.588Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:45:24.002Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:45:25.294Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:45:26.318Z","level":"INFO","message":"TMDB metadata fetched","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:45:26.320Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:26.320Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:45:26.320Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:45:26.321Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:45:26.322Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:45:26.322Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:47:57.795Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:48:00.212Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:48:01.485Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:48:02.266Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:48:03.573Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:48:04.581Z","level":"DEBUG","message":"TMDB metadata cached to disk","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:48:04.581Z","level":"INFO","message":"TMDB metadata fetched from API","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:48:04.581Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:48:04.582Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:48:04.582Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:48:04.583Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:48:04.583Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:48:04.584Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:49:52.545Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/habits/dailyWalk.md"]}}
+{"timestamp":"2025-10-01T04:49:55.634Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:49:55.634Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:49:55.635Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:49:55.635Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:49:55.635Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/habits/dailyWalk.md"]}}
+{"timestamp":"2025-10-01T04:49:56.865Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:49:56.866Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:49:56.866Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:49:56.867Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:50:03.402Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/habits/brushTeeth.md"]}}
+{"timestamp":"2025-10-01T04:50:05.064Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:50:05.064Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:50:05.064Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:50:05.064Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/habits/brushTeeth.md"]}}
+{"timestamp":"2025-10-01T04:50:06.437Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/581040","filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:50:06.437Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:50:06.438Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:50:50.952Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:50:50.958Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:50:50.959Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:50:50.960Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:50:50.961Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:50:50.961Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:50:50.962Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:51:37.280Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:51:37.286Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:51:37.287Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:51:37.288Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:51:37.289Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:51:37.289Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:51:37.289Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:51:38.372Z","level":"INFO","message":"Environment loaded","data":{"hasTmdbKey":true}}
+{"timestamp":"2025-10-01T04:51:38.378Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-581040.png"}}
+{"timestamp":"2025-10-01T04:51:38.379Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:51:38.380Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:51:38.381Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:51:38.381Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:51:38.381Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:58:48.597Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:58:50.919Z","level":"INFO","message":"Image downloaded","data":{"url":"https://theposterdb.com/api/assets/119516","filename":"Snowpiercer-119516.png"}}
+{"timestamp":"2025-10-01T04:58:50.919Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:58:50.920Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:58:50.920Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:58:50.921Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-119516.png"}}
+{"timestamp":"2025-10-01T04:58:50.921Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:58:50.922Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:59:31.822Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:59:31.823Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-119516.png"}}
+{"timestamp":"2025-10-01T04:59:31.823Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:59:31.824Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:59:31.824Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:59:31.824Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-119516.png"}}
+{"timestamp":"2025-10-01T04:59:31.824Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T04:59:31.825Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T05:01:01.884Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T05:01:02.012Z","level":"INFO","message":"Image downloaded","data":{"url":"https://assets2.ignimgs.com/2013/10/28/snowjpg-e95dd4.jpg","filename":"Snowpiercer-sybctp.png"}}
+{"timestamp":"2025-10-01T05:01:02.013Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T05:01:02.013Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T05:01:02.013Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T05:01:02.014Z","level":"DEBUG","message":"Image already cached","data":{"filename":"Snowpiercer-sybctp.png"}}
+{"timestamp":"2025-10-01T05:01:02.014Z","level":"DEBUG","message":"TMDB disk cache hit","data":{"tmdbId":"110415","type":"movie"}}
+{"timestamp":"2025-10-01T05:01:02.015Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}

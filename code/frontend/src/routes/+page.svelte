@@ -1,4 +1,4 @@
-<div class="min-h-screen bg-neutral-50 dark:bg-neutral-950 flex items-center justify-center">
+<div class="min-h-screen flex items-center justify-center">
     <div class="text-center">
         <h1 class="text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-8">Atlas</h1>
 

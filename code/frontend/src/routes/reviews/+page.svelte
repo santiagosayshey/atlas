@@ -32,8 +32,7 @@
   }
 </script>
 
-<div class="min-h-screen bg-neutral-50 dark:bg-neutral-950">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <!-- Header -->
     <div class="mb-8">
       <h1 class="text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Reviews</h1>
@@ -75,5 +74,4 @@
         {/each}
       </div>
     {/if}
-  </div>
 </div>
