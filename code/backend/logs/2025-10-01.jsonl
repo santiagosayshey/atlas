@@ -96,3 +96,74 @@
 {"timestamp":"2025-10-01T02:22:37.918Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
 {"timestamp":"2025-10-01T02:22:37.919Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
 {"timestamp":"2025-10-01T02:22:37.919Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:09:51.167Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:09:51.168Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:09:51.169Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:09:51.170Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:09:51.170Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:09:51.171Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:12:36.383Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:12:36.385Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:12:36.385Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:12:36.386Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:12:36.386Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:12:36.387Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:14:04.696Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:14:04.697Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:14:04.697Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:14:04.698Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:14:04.699Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:14:04.699Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:14:15.429Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:14:15.431Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:14:15.431Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:14:15.432Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:14:15.432Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:14:15.433Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:15:48.010Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:15:48.011Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:15:48.011Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:15:48.012Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:15:48.012Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:15:48.013Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:15:49.772Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:15:49.773Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:15:49.774Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:15:49.774Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:15:49.775Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:15:49.775Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:16:01.638Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:01.639Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:01.639Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:16:01.640Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:16:01.640Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:16:01.641Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:16:46.863Z","level":"INFO","message":"Review updated","data":{"filePath":"../../content/reviews/movies/2025-09-25_Snowpiercer.md","type":"movie","slug":"Snowpiercer"}}
+{"timestamp":"2025-10-01T04:16:46.866Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:16:46.867Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:46.868Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:46.868Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:16:46.868Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:16:46.869Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:46.869Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:16:46.869Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:17:09.283Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"create","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:17:09.284Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:09.284Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:09.284Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:17:09.284Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T04:17:09.285Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:09.285Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:09.285Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:17:13.209Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:13.210Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:13.210Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:17:13.211Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:17:13.211Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:17:13.212Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T04:17:14.221Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"brushTeeth.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:14.222Z","level":"WARN","message":"Unknown frequency type, defaulting to daily","data":{"filename":"dailyWalk.md","frequencyText":""}}
+{"timestamp":"2025-10-01T04:17:14.222Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0},"habits":{"all":2}}}
+{"timestamp":"2025-10-01T04:17:14.223Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books","habits"]}}
+{"timestamp":"2025-10-01T04:17:14.223Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T04:17:14.224Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
