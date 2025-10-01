@@ -1,0 +1,75 @@
+{"timestamp":"2025-10-01T01:29:18.465Z","level":"ERROR","message":"Failed to load reviews","data":{"dirPath":"/home/sam-chau/code/atlas/content/reviews/books"},"error":{"message":"No such file or directory (os error 2): readdir '/home/sam-chau/code/atlas/content/reviews/books'","stack":"NotFound: No such file or directory (os error 2): readdir '/home/sam-chau/code/atlas/content/reviews/books'\n    at async Object.[Symbol.asyncIterator] (ext:deno_fs/30_fs.js:219:19)\n    at async readDirectory (file:///home/sam-chau/code/atlas/code/backend/src/utils/files.ts:8:20)\n    at async reviewsLoader (file:///home/sam-chau/code/atlas/code/backend/src/services/reviews/loader.ts:27:22)\n    at async ContentCache.loadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:65:48)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:23:1"}}
+{"timestamp":"2025-10-01T01:29:18.465Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:29:18.466Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:29:18.466Z","level":"ERROR","message":"Failed to watch content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"},"error":{"message":"No such file or directory (os error 2)","stack":"NotFound: No such file or directory (os error 2)\n    at new FsWatcher (ext:runtime/40_fs_events.js:24:17)\n    at Object.watchFs (ext:runtime/40_fs_events.js:74:10)\n    at ContentCache.startWatching (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:121:30)\n    at eventLoopTick (ext:core/01_core.js:179:7)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:24:1"}}
+{"timestamp":"2025-10-01T01:29:18.467Z","level":"ERROR","message":"Failed to watch content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"},"error":{"message":"No such file or directory (os error 2)","stack":"NotFound: No such file or directory (os error 2)\n    at new FsWatcher (ext:runtime/40_fs_events.js:24:17)\n    at Object.watchFs (ext:runtime/40_fs_events.js:74:10)\n    at ContentCache.startWatching (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:121:30)\n    at eventLoopTick (ext:core/01_core.js:179:7)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:24:1"}}
+{"timestamp":"2025-10-01T01:29:18.467Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:29:18.468Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:29:18.463Z","level":"ERROR","message":"Failed to load reviews","data":{"dirPath":"/home/sam-chau/code/atlas/content/reviews/tv"},"error":{"message":"No such file or directory (os error 2): readdir '/home/sam-chau/code/atlas/content/reviews/tv'","stack":"NotFound: No such file or directory (os error 2): readdir '/home/sam-chau/code/atlas/content/reviews/tv'\n    at async Object.[Symbol.asyncIterator] (ext:deno_fs/30_fs.js:219:19)\n    at async readDirectory (file:///home/sam-chau/code/atlas/code/backend/src/utils/files.ts:8:20)\n    at async reviewsLoader (file:///home/sam-chau/code/atlas/code/backend/src/services/reviews/loader.ts:27:22)\n    at async ContentCache.loadCache (file:///home/sam-chau/code/atlas/code/backend/src/utils/cache.ts:65:48)\n    at async file:///home/sam-chau/code/atlas/code/backend/src/main.ts:23:1"}}
+{"timestamp":"2025-10-01T01:29:58.294Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:29:58.294Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:29:58.294Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:29:58.294Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:29:58.296Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:29:58.293Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:30:10.853Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T01:30:10.854Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:30:10.854Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T01:30:10.855Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:30:58.495Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:30:58.495Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:30:58.495Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:30:58.495Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:30:58.497Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:30:58.493Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:31:01.645Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:31:01.645Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:31:01.645Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:31:01.645Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:31:01.647Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:31:01.644Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:31:03.054Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:31:03.054Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:31:03.054Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:31:03.054Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:31:03.056Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:31:03.052Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:31:04.301Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:31:04.301Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:31:04.302Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:31:04.302Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:31:04.303Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:31:04.300Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:32:25.860Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/movies"}}
+{"timestamp":"2025-10-01T01:32:25.860Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/tv"}}
+{"timestamp":"2025-10-01T01:32:25.860Z","level":"INFO","message":"Watching content directory","data":{"path":"/home/sam-chau/code/atlas/content/reviews/books"}}
+{"timestamp":"2025-10-01T01:32:25.860Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:32:25.861Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:32:25.858Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:32:29.767Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T01:32:29.767Z","level":"DEBUG","message":"Content file event detected","data":{"kind":"modify","paths":["/home/sam-chau/code/atlas/content/reviews/movies/2025-09-25_Snowpiercer.md"]}}
+{"timestamp":"2025-10-01T01:32:29.870Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:34:16.686Z","level":"INFO","message":"Watching content directories","data":{"paths":["/home/sam-chau/code/atlas/content/reviews/movies","/home/sam-chau/code/atlas/content/reviews/tv","/home/sam-chau/code/atlas/content/reviews/books"]}}
+{"timestamp":"2025-10-01T01:34:16.686Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:34:16.687Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:34:16.684Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:34:58.181Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books"]}}
+{"timestamp":"2025-10-01T01:34:58.181Z","level":"INFO","message":"Watching config file","data":{"path":"/home/sam-chau/code/atlas/code/backend/config.yaml"}}
+{"timestamp":"2025-10-01T01:34:58.182Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:34:58.179Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:35:29.239Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books"]}}
+{"timestamp":"2025-10-01T01:35:29.239Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:35:29.240Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:35:29.237Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:35:58.111Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books"]}}
+{"timestamp":"2025-10-01T01:35:58.111Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:35:58.112Z","level":"INFO","message":"Server running","data":{"port":7667}}
+{"timestamp":"2025-10-01T01:35:58.109Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:36:23.958Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books"]}}
+{"timestamp":"2025-10-01T01:36:23.958Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:36:23.959Z","level":"INFO","message":"Server running on http://localhost:7667"}
+{"timestamp":"2025-10-01T01:36:23.956Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}
+{"timestamp":"2025-10-01T01:36:52.050Z","level":"INFO","message":"Watching content directories","data":{"paths":["reviews/movies","reviews/tv","reviews/books"]}}
+{"timestamp":"2025-10-01T01:36:52.050Z","level":"INFO","message":"Watching config file","data":{"path":"config.yaml"}}
+{"timestamp":"2025-10-01T01:36:52.051Z","level":"INFO","message":"Server running","data":{"url":"http://localhost:7667"}}
+{"timestamp":"2025-10-01T01:36:52.049Z","level":"INFO","message":"Cache loaded","data":{"reviews":{"movies":1,"tv":0,"books":0}}}

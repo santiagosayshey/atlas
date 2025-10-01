@@ -7,4 +7,7 @@ export interface Config {
       books: string;
     };
   };
+  logs: {
+    directory: string;
+  };
 }

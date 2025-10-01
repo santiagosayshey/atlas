@@ -4,3 +4,6 @@ content:
     movies: reviews/movies
     tv: reviews/tv
     books: reviews/books
+
+logs:
+  directory: logs

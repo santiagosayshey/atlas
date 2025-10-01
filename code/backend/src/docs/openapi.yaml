@@ -21,7 +21,7 @@ paths:
             type: string
             enum: [movie, tv, book]
       responses:
-        '200':
+        "200":
           description: Successful response
           content:
             application/json:
@@ -31,13 +31,13 @@ paths:
                   reviews:
                     type: array
                     items:
-                      $ref: '#/components/schemas/Review'
-        '500':
+                      $ref: "#/components/schemas/Review"
+        "500":
           description: Internal server error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
+                $ref: "#/components/schemas/Error"
 
   /api/reviews/{type}/{slug}:
     get:
@@ -58,7 +58,7 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: Successful response
           content:
             application/json:
@@ -66,19 +66,19 @@ paths:
                 type: object
                 properties:
                   review:
-                    $ref: '#/components/schemas/Review'
-        '404':
+                    $ref: "#/components/schemas/Review"
+        "404":
           description: Review not found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
-        '500':
+                $ref: "#/components/schemas/Error"
+        "500":
           description: Internal server error
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Error'
+                $ref: "#/components/schemas/Error"
 
 components:
   schemas:
