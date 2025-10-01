@@ -9,6 +9,12 @@
             >
                 View All Reviews
             </a>
+            <a
+                href="/habits"
+                class="block px-6 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
+            >
+                View Habits
+            </a>
 
             <div class="flex gap-4 justify-center">
                 <a

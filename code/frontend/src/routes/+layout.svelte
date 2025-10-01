@@ -2,8 +2,8 @@
 	import { onMount } from 'svelte';
 	import "../app.css";
 	import "@fontsource-variable/inter";
-	import Navbar from "$ui/Navbar.svelte";
-	import { theme } from "$stores/theme.js";
+	import Navbar from "$shared/components/navigation/navbar/Navbar.svelte";
+	import { theme } from "../shared/stores/theme.js";
 
 	let { children } = $props();
 

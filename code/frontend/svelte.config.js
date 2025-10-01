@@ -9,8 +9,9 @@ const config = {
     }),
     alias: {
       $api: resolve('./src/api'),
-      $ui: resolve('./src/ui'),
-      $stores: resolve('./src/stores')
+      $ui: resolve('./src/shared/components/ui'),
+      $shared: resolve('./src/shared'),
+      $stores: resolve('./src/shared/stores')
     }
   }
 };

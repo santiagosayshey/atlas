@@ -20,8 +20,18 @@ function parseHabitFile(content: string, filename: string): Habit | null {
 
   const name = nameMatch[1].trim();
   const description = descriptionMatch[1].trim();
-  const template = templateMatch[1].trim();
+  const templateText = templateMatch[1].trim();
   const frequencyText = frequencyMatch[1].trim().toLowerCase();
+
+  // Parse steps from template (extract text after "- [ ] ")
+  const steps: string[] = [];
+  const stepLines = templateText.split("\n");
+  for (const line of stepLines) {
+    const stepMatch = line.match(/^-\s+\[\s*\]\s+(.+)$/);
+    if (stepMatch) {
+      steps.push(stepMatch[1].trim());
+    }
+  }
 
   // Map frequency text to valid types
   let frequency: "daily" | "weekly" | "monthly";
@@ -43,7 +53,7 @@ function parseHabitFile(content: string, filename: string): Habit | null {
     slug,
     name,
     description,
-    template,
+    steps,
     frequency,
   };
 }
